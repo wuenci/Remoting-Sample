@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingObject", "RemotingObject\RemotingObject.csproj", "{2046B32B-85EA-44F9-9F65-FBF34A485189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServer", "RemotingServer\RemotingServer.csproj", "{F6EB5DE2-77BB-4499-9C2E-7AF56BFC6D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingClient", "RemotingClient\RemotingClient.csproj", "{89033D45-66CB-48DF-90FD-27734CCFF315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2046B32B-85EA-44F9-9F65-FBF34A485189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2046B32B-85EA-44F9-9F65-FBF34A485189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2046B32B-85EA-44F9-9F65-FBF34A485189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2046B32B-85EA-44F9-9F65-FBF34A485189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB5DE2-77BB-4499-9C2E-7AF56BFC6D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB5DE2-77BB-4499-9C2E-7AF56BFC6D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB5DE2-77BB-4499-9C2E-7AF56BFC6D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB5DE2-77BB-4499-9C2E-7AF56BFC6D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89033D45-66CB-48DF-90FD-27734CCFF315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89033D45-66CB-48DF-90FD-27734CCFF315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89033D45-66CB-48DF-90FD-27734CCFF315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89033D45-66CB-48DF-90FD-27734CCFF315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
