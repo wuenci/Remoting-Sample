@@ -44,7 +44,9 @@ namespace RemotingClient
 
         private void btnGetCustomer_Click(object sender, EventArgs e)
         {
-            profile = new Profile();
+            if (profile == null)
+                profile = new Profile();
+
             customer = profile.GetCustomer();
             lblCustomername.Text = customer.Customername;
         }
