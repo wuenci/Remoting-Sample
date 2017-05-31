@@ -16,6 +16,7 @@ namespace RemotingServer
 {
     public partial class Server : Form
     {
+
         public Server()
         {
             InitializeComponent();
@@ -31,7 +32,8 @@ namespace RemotingServer
             TcpServerChannel channel = new TcpServerChannel(1234);
             ChannelServices.RegisterChannel(channel, false);
 
-            RemotingConfiguration.RegisterWellKnownServiceType(typeof(Profile), "Profile", WellKnownObjectMode.Singleton);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(IProfile), "RemotingDemo", WellKnownObjectMode.Singleton);
+
 
             btnStartServer.Enabled = false;
 

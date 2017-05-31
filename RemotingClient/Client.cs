@@ -27,7 +27,7 @@ namespace RemotingClient
 
             TcpClientChannel channel = new TcpClientChannel();
             ChannelServices.RegisterChannel(channel, false);
-            RemotingConfiguration.RegisterActivatedClientType(typeof(Profile), "tcp://localhost:1234");
+            //RemotingConfiguration.RegisterActivatedClientType(typeof(Profile), "tcp://localhost:1234");
 
         }
 

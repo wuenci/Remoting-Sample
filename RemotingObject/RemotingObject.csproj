@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="IProfile.cs" />
     <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
