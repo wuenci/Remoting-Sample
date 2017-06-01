@@ -32,7 +32,7 @@ namespace RemotingServer
             TcpServerChannel channel = new TcpServerChannel(1234);
             ChannelServices.RegisterChannel(channel, false);
 
-            RemotingConfiguration.RegisterWellKnownServiceType(typeof(IProfile), "RemotingDemo", WellKnownObjectMode.Singleton);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(Profile), "IProfile", WellKnownObjectMode.Singleton);
 
 
             btnStartServer.Enabled = false;

@@ -36,6 +36,8 @@
             this.txtCustomername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblCustomername = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtLocation = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +74,7 @@
             // 
             // btnGetCustomer
             // 
-            this.btnGetCustomer.Location = new System.Drawing.Point(19, 142);
+            this.btnGetCustomer.Location = new System.Drawing.Point(23, 181);
             this.btnGetCustomer.Name = "btnGetCustomer";
             this.btnGetCustomer.Size = new System.Drawing.Size(154, 23);
             this.btnGetCustomer.TabIndex = 4;
@@ -82,7 +84,7 @@
             // 
             // btnSetCustomer
             // 
-            this.btnSetCustomer.Location = new System.Drawing.Point(239, 86);
+            this.btnSetCustomer.Location = new System.Drawing.Point(239, 107);
             this.btnSetCustomer.Name = "btnSetCustomer";
             this.btnSetCustomer.Size = new System.Drawing.Size(154, 23);
             this.btnSetCustomer.TabIndex = 5;
@@ -92,15 +94,15 @@
             // 
             // txtCustomername
             // 
-            this.txtCustomername.Location = new System.Drawing.Point(60, 88);
+            this.txtCustomername.Location = new System.Drawing.Point(77, 88);
             this.txtCustomername.Name = "txtCustomername";
-            this.txtCustomername.Size = new System.Drawing.Size(173, 20);
+            this.txtCustomername.Size = new System.Drawing.Size(156, 20);
             this.txtCustomername.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 91);
+            this.label2.Location = new System.Drawing.Point(26, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 7;
@@ -109,17 +111,35 @@
             // lblCustomername
             // 
             this.lblCustomername.AutoSize = true;
-            this.lblCustomername.Location = new System.Drawing.Point(16, 180);
+            this.lblCustomername.Location = new System.Drawing.Point(20, 219);
             this.lblCustomername.Name = "lblCustomername";
             this.lblCustomername.Size = new System.Drawing.Size(35, 13);
             this.lblCustomername.TabIndex = 8;
             this.lblCustomername.Text = "label3";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Location:";
+            // 
+            // txtLocation
+            // 
+            this.txtLocation.Location = new System.Drawing.Point(77, 114);
+            this.txtLocation.Name = "txtLocation";
+            this.txtLocation.Size = new System.Drawing.Size(156, 20);
+            this.txtLocation.TabIndex = 9;
             // 
             // Client
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(510, 261);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtLocation);
             this.Controls.Add(this.lblCustomername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCustomername);
@@ -148,6 +168,8 @@
         private System.Windows.Forms.TextBox txtCustomername;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblCustomername;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtLocation;
     }
 }
 

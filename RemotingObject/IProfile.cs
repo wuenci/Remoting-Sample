@@ -8,7 +8,7 @@ namespace RemotingObject
 {
     public interface IProfile
     {
-        void SetProfile(string customername);
+        void SetProfile(string customername, string location);
         Customer GetCustomer();
     }
 }
