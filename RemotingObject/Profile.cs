@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RemotingObject
 {
-    public class Profile : MarshalByRefObject
+    public class Profile : MarshalByRefObject, IProfile
     {
         private Customer customer;
 
@@ -26,9 +26,6 @@ namespace RemotingObject
             {
                 file.WriteLine(g + "," + customername + "," + location);
             }
-
-            Console.WriteLine("Profile is set");
-
         }
 
         public Customer GetCustomer()
